@@ -1,3 +1,0 @@
-- provide a list of urls
-- loop through urls, report status
-- run inside Kubernetes (docker container, k8s deployment file)
