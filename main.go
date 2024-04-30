@@ -31,9 +31,10 @@ func main() {
 
 
 func pingURL(url string) {
+	url = strings.TrimSpace(url)
 	for {
 		_, err := http.Get(url)
-		log.Println(url)
+		log.Println("Pinging " + url)
 		if err != nil {
 			log.Println("Error: ", err.Error())
 		}
