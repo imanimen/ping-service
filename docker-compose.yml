@@ -1,0 +1,6 @@
+version: '1'
+services:
+  ping-service:
+    image: 6014560/ping-service
+    environment:
+      - PING_URLS=https://google.com,https://yahoo.com
